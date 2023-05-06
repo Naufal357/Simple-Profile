@@ -1,0 +1,180 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+.background {
+	display: flex;
+	min-height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(45deg, rgb(26, 1, 117) 0%, rgba(225, 5, 34, 0) 70%) repeat scroll 0% 0%, 
+	linear-gradient(135deg, rgb(225, 5, 152) 10%, rgba(49, 5, 209, 0) 80%) repeat scroll 0% 0%, 
+	linear-gradient(225deg, hsla(179, 81%, 45%, 1) 10%, rgba(10, 219, 216, 0) 80%) repeat scroll 0% 0%,
+	 rgba(0, 0, 0, 0) linear-gradient(315deg, rgb(189, 5, 245) 100%, rgba(9, 245, 5, 0) 70%) repeat scroll 0% 0%;
+  }
+  
+  /* Shapes */
+  .background .shape {
+	filter: blur(465px);
+	position: absolute;
+  }
+  
+  .background .shape:nth-child(1) {
+	background-color: #ffb0d8;
+	top: -340px;
+	width: 300px;
+	height: 300px;
+  }
+  
+  .background .shape:nth-child(2) {
+	left: 100px;
+	bottom: -150px;
+	background-color: #c26cf3;
+	width: 200px;
+	height: 210px;
+  }
+  
+  .background .shape:nth-child(3) {
+	background-color: #87cfdf;
+	bottom: -150px;
+	right: 100px;
+	width: 300px;
+	height: 300px;
+  }
+  
+  /* Other page styling */
+  * {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+	margin: 30px;
+	border-radius: 20px;
+	background-color: #73c86a;
+	background-image: linear-gradient(147deg, #6a73c8 0%, #c8bf6a 74%);
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.identity {
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+}
+
+.identity img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.identity h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+.identity h2 {
+	margin: 0;
+	font-size: 24px;
+	color: #1f223c;
+}
+
+.story {
+	float: right;
+	width: 65%;
+}
+
+.story h3 {
+	margin-top: 0;
+}
+
+.story p {
+	line-height: 1.5;
+}
+
+.info {
+	clear: both;
+    padding-top: 30px;
+}
+
+.info h3 {
+	margin-top: 10px;
+}
+
+.info ul {
+	list-style: none;
+	padding: 0;
+}
+
+.info li {
+	margin-bottom: 10px;
+}
+
+.info li strong {
+	display: inline-block;
+	min-width: 100px;
+}
+
+.find-me {
+	margin-top: 20px;
+    text-align: center;
+}
+
+.find-me h3 {
+	margin-top: 0;
+}
+
+.find-me ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.find-me li {
+	margin: 0 10px;
+}
+
+.find-me img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
