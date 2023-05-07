@@ -1,2 +1,2 @@
 # Simple-Profile
-<img src="asset\Demo.jpg" alt="Demo">
+<img src="Gambar-Demo.jpg" alt="Demo">
